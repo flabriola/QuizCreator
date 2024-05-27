@@ -1,0 +1,79 @@
+#how-main-container {
+    width: 45em;
+    text-align: left;
+    z-index: 1;
+    margin-bottom: 7em;
+    /* Set a higher z-index to make sure it's above other elements */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(45, 98, 222);
+}
+
+#img-one, #how-main-container img, #how-main-container h1 {
+    height: auto;
+    width: 100%;
+    font-weight: 300;
+}
+
+#how-main-container h4 {
+    line-height: 0.7;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+#how-main-container p {
+    font-weight: 300;
+}
+
+#how-menu{
+    position: fixed;
+    top: 13.5%;
+    left: 80%;
+    text-align: right;
+    text-decoration: none;
+}
+
+#how-menu a,#how-menu h2  {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#how-menu a:hover {
+    cursor: pointer;
+}
+
+#howto-json, #howtoplay {
+    margin-top: 9em;
+}
+
+
+#howto-spacer {
+    height: 7.7em;
+}
+
+#how-main-container img {
+    border-radius: 20px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+#ht-b {
+    border-radius: 1000px;
+    width: fit-content;
+    border: 1px solid rgb(226, 226, 226);
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #htd {
+    padding: 0.8em 1.2em;
+    font-weight: 300;
+    font-size: 15px;
+  }

@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  top: 0;
+  height: fit-content;
+}
+
+body {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#createMenuContainer {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: white;
+  border-bottom:  1px  solid rgb(226, 226, 226);
+}
+
+header a img {
+  width: 27px;
+}
+
+#ht-b {
+  border-radius: 1000px;
+  width: fit-content;
+  border: 1px solid rgb(226, 226, 226);
+  text-decoration: none;
+  color: black;
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#htd {
+  padding: 0.8em 1.2em;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#ht-b:hover {
+  cursor: pointer;
+  background-color: rgb(250, 250, 250);
+}

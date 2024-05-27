@@ -1,0 +1,116 @@
+#optionsContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    align-items: center;
+    column-gap: 8em;
+}
+
+.menuOption {
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: #25282F;
+}
+
+.optionText {
+    opacity: 1;
+    transition: opacity 0.3s;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+#createMenuContainer {
+    padding-top: 22em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#create-title {
+    display: flex;
+    flex-direction: column;
+    width: 40em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#description-cc {
+    font-weight: 240;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.3;
+    width: 90%;
+}
+
+#title {
+    font-weight: 450;
+    margin: 0;
+    font-size: 24px;
+}
+
+
+/* 
+#optionsContainer {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    align-items: center;
+    row-gap: 8em;
+}
+
+.menuOption {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 2em;
+    justify-content: left;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: #25282F;
+}
+
+.optionText {
+    margin-left: 10px; 
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+#createMenuContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+} */
+
+#ht-b {
+    border-radius: 1000px;
+    width: fit-content;
+    border: 1px solid rgb(226, 226, 226);
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#htd {
+    padding: 0.8em 1.2em;
+    font-weight: 300;
+    font-size: 15px;
+}

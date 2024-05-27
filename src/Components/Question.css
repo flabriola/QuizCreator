@@ -1,0 +1,35 @@
+#answers-container{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    justify-content: left;
+    text-align: left;
+    padding: 2em 0;
+}
+
+.answer-container{
+    margin: 0.6em;
+}
+
+#question-title {
+    margin: 0 0.6em;
+}
+
+/* Hide the default radio button appearance */
+input[type='radio'].answers {
+    -webkit-appearance: none;   /* Chrome, Safari, Opera */
+    appearance: none;           /* Standard syntax */
+    background-color: white;    /* Default background */
+    border: 1px solid #bababa;     /* Default border */
+    width: 0.85em;                 /* Width of the radio button */
+    height: 0.85em;                /* Height of the radio button */
+    border-radius: 50%;         /* Round shape */
+    transition: background 0.23s, border-color 0.23s; /* Smooth transition for color change */
+    margin-right: 0.6em;
+}
+
+/* Change border and background color when selected */
+input[type='radio'].answers:checked {
+    background-color: #bababa;
+    /* box-shadow: inset 0 0 0 0.15em #ffffff;  Adjust shadow size to control the amount of whitespace */
+    border-color: #bababa; 
+}

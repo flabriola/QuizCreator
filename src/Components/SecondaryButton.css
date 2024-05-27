@@ -1,0 +1,15 @@
+#sButtonContainer {
+    display: inline-block;
+    border-radius: 1000px;
+    width: fit-content;
+    border:  1px  solid rgb(226, 226, 226);
+}
+
+#sButtonContainer:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+#sButtonContainer h3 {
+    padding: 0 1em;
+}
