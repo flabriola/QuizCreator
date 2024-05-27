@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/quiz/static/css/main.5debc612.css",
+    "main.js": "/quiz/static/js/main.deb6e24c.js",
+    "static/js/787.f6f90576.chunk.js": "/quiz/static/js/787.f6f90576.chunk.js",
+    "static/media/Screen Shot 2024-05-24 at 14.36.34.png": "/quiz/static/media/Screen Shot 2024-05-24 at 14.36.34.f1fa83622a0976f01c14.png",
+    "static/media/Screen Shot 2024-05-24 at 14.37.03.png": "/quiz/static/media/Screen Shot 2024-05-24 at 14.37.03.a2b832547c9016122bb6.png",
+    "static/media/Screen Shot 2024-05-24 at 14.36.11.png": "/quiz/static/media/Screen Shot 2024-05-24 at 14.36.11.b10338d2dddb970ff642.png",
+    "static/media/Screen Shot 2024-05-24 at 14.35.09.png": "/quiz/static/media/Screen Shot 2024-05-24 at 14.35.09.67c407f24ae894342fdb.png",
+    "static/media/Screen Shot 2024-05-24 at 14.37.55.png": "/quiz/static/media/Screen Shot 2024-05-24 at 14.37.55.54d343d537d67f1b209b.png",
+    "static/media/Screen Shot 2024-05-24 at 15.29.58.png": "/quiz/static/media/Screen Shot 2024-05-24 at 15.29.58.0c5cc7633160a2d46d9a.png",
+    "static/media/Screen Shot 2024-05-24 at 15.29.09.png": "/quiz/static/media/Screen Shot 2024-05-24 at 15.29.09.421df57dee9f1b8e8d77.png",
+    "static/media/Screen Shot 2024-05-24 at 14.38.31.png": "/quiz/static/media/Screen Shot 2024-05-24 at 14.38.31.468d47ae2e0f4c8e8c56.png",
+    "static/media/openai.png": "/quiz/static/media/openai.a611841a4d307460c1a4.png",
+    "static/media/Screen Shot 2024-05-24 at 14.38.13.png": "/quiz/static/media/Screen Shot 2024-05-24 at 14.38.13.eb6d3ec57f23c186c03e.png",
+    "static/media/Screen Shot 2024-05-24 at 14.39.07.png": "/quiz/static/media/Screen Shot 2024-05-24 at 14.39.07.5885fb4585495fbd026e.png",
+    "static/media/Screen Shot 2024-05-24 at 14.39.45.png": "/quiz/static/media/Screen Shot 2024-05-24 at 14.39.45.6a4cc7268f4b446a4c5b.png",
+    "static/media/Vector.svg": "/quiz/static/media/Vector.14f42c2094d05edee12573162e5f5c43.svg",
+    "index.html": "/quiz/index.html",
+    "main.5debc612.css.map": "/quiz/static/css/main.5debc612.css.map",
+    "main.deb6e24c.js.map": "/quiz/static/js/main.deb6e24c.js.map",
+    "787.f6f90576.chunk.js.map": "/quiz/static/js/787.f6f90576.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5debc612.css",
+    "static/js/main.deb6e24c.js"
+  ]
+}

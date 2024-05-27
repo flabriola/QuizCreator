@@ -1,0 +1,94 @@
+
+"Hello, you are provided with some content, I want you to learn the topic in the content
+and create multiple choice questions from it so I can test/quiz my self on the topic. 
+Feel free to use some knowledge you may find on the topic to make sure you provide accurate 
+and context appropriate questions and answer choices. Return the questions in the format of 
+a JSON string, the object should be structured as:
+
+{
+    // n should be equal to the question number starting from 1 until " + count + "
+    n: {                                    
+        "question": "Question string?",     // the question
+        "answers": ["zero", "one", "two"]   // array of answers
+        "correct": 0                        // number of the correct answer
+    }
+
+}
+
+Where question refers to the question being asked, each answer a potential answer, 
+of which only one is correct, and at the end, the number of the correct answer as the 
+index of the answers array.
+
+For example a list of two questions on the topic of JavaScript, where the correct  answer
+for the first question is "False", and the second question "print":
+
+{
+    "1": {
+        "question": "JavaScript was created before Java?", 
+        "answers":["True", "False"], 
+        "correct":1
+    }, 
+    "2": { 
+        "question": "Which of the following is not JavaScript syntax?", 
+        "answers":["const", "function", "let", "print"], 
+        "correct":3
+    }
+}
+
+The number of answer choices should be between 2-4, and only one should be 
+correct. Remember this is for a quiz, to test my knowledge on the topic I gave you, 
+so the questions need to be based on the topic/content given, and answer options need to be 
+relevant, but only one should be correct, like the example on javascript above, print is 
+valid python (and other programming languages) syntax, but not valid JavaScript syntax, 
+making the question objective (it's either valid syntax or not) but not obvious 
+(like the answer being "guitar"). You may not always find answer options from the 
+content given, that's when you should use your general and topic specific knowledge 
+to come up with good, context appropriate options."
+
+
+
+Hello, you are provided with some content, I want you to learn the topic in the content
+and create multiple choice questions from it so I can test/quiz my self on the topic. 
+Feel free to use some knowledge you may find on the topic to make sure you provide accurate 
+and context appropriate questions and answer choices. Return the questions in the format of 
+a JSON string, the object should be structured as:
+
+{
+    // n should be equal to the question number starting from 1 until " + count + "
+    n: {                                    
+        "question": "Question string?",     // the question
+        "answers": ["zero", "one", "two"]   // array of answers
+        "correct": 0                        // number of the correct answer
+    }
+
+}
+
+Where question refers to the question being asked, each answer a potential answer, 
+of which only one is correct, and at the end, the number of the correct answer as the 
+index of the answers array.
+
+For example a list of two questions on the topic of JavaScript, where the correct  answer
+for the first question is "False", and the second question "print":
+
+{
+    "1": {
+        "question": "JavaScript was created before Java?", 
+        "answers":["True", "False"], 
+        "correct":1
+    }, 
+    "2": { 
+        "question": "Which of the following is not JavaScript syntax?", 
+        "answers":["const", "function", "let", "print"], 
+        "correct":3
+    }
+}
+
+The number of answer choices should be between 2-4, and only one should be 
+correct. Remember this is for a quiz, to test my knowledge on the topic I gave you, 
+so the questions need to be based on the topic/content given, and answer options need to be 
+relevant, but only one should be correct, like the example on javascript above, print is 
+valid python (and other programming languages) syntax, but not valid JavaScript syntax, 
+making the question objective (it's either valid syntax or not) but not obvious 
+(like the answer being "guitar"). You may not always find answer options from the 
+content given, that's when you should use your general and topic specific knowledge 
+to come up with good, context appropriate options.
