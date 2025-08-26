@@ -2,6 +2,8 @@
 
 ### Live now at: https://flabriola.github.io/quiz/
 
+OpenAI quiz generator DISABLED. If you are interested in using the website, put your questions into the JSON box. To create questions with chatbot see prompt template below.
+
 Quiz Creator is an interactive Web App aimed to facilitate the creation of Quizzes based on given content with use of Artificial Intelligence. The app accepts content (or ready JSON structured quiz) and using GPT-4o, through the OpenAI API, creates a multiple-choice quiz to test your knowledge on the given topic.
 
 Aimed to help study specific topics and subjects, stemmed from the personal lack of practice quizzes for individual specific topics/subjects in university.
@@ -33,3 +35,6 @@ It started as a shell script, then a very basic html/js. I decided to make somet
 
 Note: This is a mirror repository. Original reporsitory has API keys and I don't feel like setting up a bcakend to handle them so I left it private
 
+## Prompt Template (replace N with number of questions desired)
+
+Hello, you are provided with some content, I want you to learn the topic in the content and create **N** multiple choice questions from it so I can test/quiz my self on the topic. Feel free to use some knowledge you may find on the topic to make sure you provide accurate and context appropriate questions and answer choices. Return the questions in the format of \na JSON string, the object should be structured as:\n\n{\n // n should be equal to the question number starting from 1 until " + count + "\n n: { \n \"question\": \"Question string?\", // the question\n \"answers\": [\"zero\", \"one\", \"two\"] // array of answers\n \"correct\": 0 // number of the correct answer\n }\n\n}\n\nWhere question refers to the question being asked, each answer a potential answer, \nof which only one is correct, and at the end, the number of the correct answer as the \nindex of the answers array.\n\nFor example a list of two questions on the topic of JavaScript, where the correct answer\nfor the first question is \"False\", and the second question \"print\":\n\n{\n \"1\": {\n \"question\": \"JavaScript was created before Java?\", \n \"answers\":[\"True\", \"False\"], \n \"correct\":1\n }, \n \"2\": { \n \"question\": \"Which of the following is not JavaScript syntax?\", \n \"answers\":[\"const\", \"function\", \"let\", \"print\"], \n \"correct\":3\n }\n}\n\nThe number of answer choices should be between 2-4, and only one should be \ncorrect. Remember this is for a quiz, to test my knowledge on the topic I gave you, \nso the questions need to be based on the topic/content given, and answer options need to be \nrelevant, but only one should be correct, like the example on javascript above, print is \nvalid python (and other programming languages) syntax, but not valid JavaScript syntax, \nmaking the question objective (it's either valid syntax or not) but not obvious \n(like the answer being \"guitar\"). You may not always find answer options from the \ncontent given, that's when you should use your general and topic specific knowledge \nto come up with good, context appropriate options. Make them **difficult**
